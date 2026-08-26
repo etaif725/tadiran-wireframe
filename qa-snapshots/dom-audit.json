@@ -1,0 +1,498 @@
+[
+  {
+    "route": "/",
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": 1,
+    "ctas": [
+      "cta-band",
+      "footer-cta"
+    ],
+    "evidence": 3,
+    "fallbacks": 0,
+    "emptyMedia": 5,
+    "imgs": [
+      {
+        "src": "http://localhost:5173/media/utilities.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/transportation.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Transportation operations",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/utilities.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Power & Utilities operations",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/healthcare.jpg",
+        "w": 0,
+        "h": 0,
+        "alt": "Healthcare operations",
+        "broken": true
+      },
+      {
+        "src": "http://localhost:5173/media/healthcare.jpg",
+        "w": 0,
+        "h": 0,
+        "alt": "Assisted Living operations",
+        "broken": true
+      },
+      {
+        "src": "http://localhost:5173/media/hospitality.jpg",
+        "w": 0,
+        "h": 0,
+        "alt": "Hospitality operations",
+        "broken": true
+      },
+      {
+        "src": "http://localhost:5173/media/education.jpg",
+        "w": 0,
+        "h": 0,
+        "alt": "Education operations",
+        "broken": true
+      },
+      {
+        "src": "http://localhost:5173/media/heritage.jpg",
+        "w": 0,
+        "h": 0,
+        "alt": "",
+        "broken": true
+      }
+    ],
+    "imgBroken": 5,
+    "imgTotal": 8,
+    "footerCols": 6,
+    "sticky": "sticky",
+    "bodyH": 8166
+  },
+  {
+    "route": "/about",
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": 1,
+    "ctas": [
+      "cta-band cta-band--media",
+      "footer-cta"
+    ],
+    "evidence": 0,
+    "fallbacks": 0,
+    "emptyMedia": 1,
+    "imgs": [
+      {
+        "src": "http://localhost:5173/media/heritage.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Telecommunications engineers connecting legacy systems with modern global networks",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/utilities.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Mission-critical communications operations environment",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/partners.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Global Tadiran teams coordinating enterprise communications support",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/enterprise-hero.jpg",
+        "w": 0,
+        "h": 0,
+        "alt": "",
+        "broken": true
+      },
+      {
+        "src": "http://localhost:5173/media/transportation.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "",
+        "broken": true
+      },
+      {
+        "src": "http://localhost:5173/media/partners.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/heritage.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "",
+        "broken": false
+      }
+    ],
+    "imgBroken": 2,
+    "imgTotal": 7,
+    "footerCols": 6,
+    "sticky": "sticky",
+    "bodyH": 6233
+  },
+  {
+    "route": "/solutions",
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": 1,
+    "ctas": [
+      "cta-band cta-band--media",
+      "footer-cta"
+    ],
+    "evidence": 0,
+    "fallbacks": 0,
+    "emptyMedia": 1,
+    "imgs": [
+      {
+        "src": "http://localhost:5173/media/utilities.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Mission-critical utility communications operating environment",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/enterprise-hero.jpg",
+        "w": 0,
+        "h": 0,
+        "alt": "",
+        "broken": true
+      }
+    ],
+    "imgBroken": 1,
+    "imgTotal": 2,
+    "footerCols": 6,
+    "sticky": "sticky",
+    "bodyH": 8484
+  },
+  {
+    "route": "/solutions/omnichannel-cx",
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": 1,
+    "ctas": [
+      "cta-band",
+      "footer-cta"
+    ],
+    "evidence": 2,
+    "fallbacks": 0,
+    "emptyMedia": 0,
+    "imgs": [],
+    "imgBroken": 0,
+    "imgTotal": 0,
+    "footerCols": 6,
+    "sticky": "sticky",
+    "bodyH": 7851
+  },
+  {
+    "route": "/products",
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": 1,
+    "ctas": [
+      "cta-band cta-band--media",
+      "footer-cta"
+    ],
+    "evidence": 0,
+    "fallbacks": 0,
+    "emptyMedia": 0,
+    "imgs": [
+      {
+        "src": "http://localhost:5173/media/enterprise-hero.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "",
+        "broken": false
+      }
+    ],
+    "imgBroken": 0,
+    "imgTotal": 1,
+    "footerCols": 6,
+    "sticky": "sticky",
+    "bodyH": 3924
+  },
+  {
+    "route": "/products/omnicx",
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": 1,
+    "ctas": [
+      "cta-band",
+      "footer-cta"
+    ],
+    "evidence": 2,
+    "fallbacks": 0,
+    "emptyMedia": 0,
+    "imgs": [],
+    "imgBroken": 0,
+    "imgTotal": 0,
+    "footerCols": 6,
+    "sticky": "sticky",
+    "bodyH": 6472
+  },
+  {
+    "route": "/industries",
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": 1,
+    "ctas": [
+      "cta-band cta-band--media",
+      "footer-cta"
+    ],
+    "evidence": 0,
+    "fallbacks": 0,
+    "emptyMedia": 0,
+    "imgs": [
+      {
+        "src": "http://localhost:5173/media/transportation.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Mission-critical transportation communications operations center",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/transportation.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Transportation communications operating environment",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/utilities.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Power & Utilities communications operating environment",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/healthcare.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Healthcare communications operating environment",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/healthcare.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Assisted Living communications operating environment",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/hospitality.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Hospitality communications operating environment",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/education.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Education communications operating environment",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/utilities.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Alarm Systems communications operating environment",
+        "broken": false
+      }
+    ],
+    "imgBroken": 0,
+    "imgTotal": 10,
+    "footerCols": 6,
+    "sticky": "sticky",
+    "bodyH": 5476
+  },
+  {
+    "route": "/industries/healthcare",
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": 1,
+    "ctas": [
+      "cta-band",
+      "footer-cta"
+    ],
+    "evidence": 2,
+    "fallbacks": 0,
+    "emptyMedia": 0,
+    "imgs": [
+      {
+        "src": "http://localhost:5173/media/healthcare.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Healthcare mission-critical communications environment",
+        "broken": false
+      }
+    ],
+    "imgBroken": 0,
+    "imgTotal": 1,
+    "footerCols": 6,
+    "sticky": "sticky",
+    "bodyH": 6200
+  },
+  {
+    "route": "/resources",
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": 1,
+    "ctas": [
+      "cta-band cta-band--media",
+      "footer-cta"
+    ],
+    "evidence": 0,
+    "fallbacks": 0,
+    "emptyMedia": 0,
+    "imgs": [
+      {
+        "src": "http://localhost:5173/media/heritage.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Enterprise communications specialists reviewing a global network",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/heritage.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/heritage.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/transportation.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/healthcare.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/partners.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/utilities.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/education.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "",
+        "broken": false
+      }
+    ],
+    "imgBroken": 0,
+    "imgTotal": 10,
+    "footerCols": 6,
+    "sticky": "sticky",
+    "bodyH": 4980
+  },
+  {
+    "route": "/contact",
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": 1,
+    "ctas": [
+      "footer-cta"
+    ],
+    "evidence": 0,
+    "fallbacks": 0,
+    "emptyMedia": 0,
+    "imgs": [],
+    "imgBroken": 0,
+    "imgTotal": 0,
+    "footerCols": 6,
+    "sticky": "sticky",
+    "bodyH": 2709
+  },
+  {
+    "route": "/partners",
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": 1,
+    "ctas": [
+      "cta-band cta-band--media",
+      "footer-cta"
+    ],
+    "evidence": 1,
+    "fallbacks": 0,
+    "emptyMedia": 0,
+    "imgs": [
+      {
+        "src": "http://localhost:5173/media/partners.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "Global telecommunications partners collaborating on an enterprise solution",
+        "broken": false
+      },
+      {
+        "src": "http://localhost:5173/media/partners.avif",
+        "w": 1536,
+        "h": 1024,
+        "alt": "",
+        "broken": false
+      }
+    ],
+    "imgBroken": 0,
+    "imgTotal": 2,
+    "footerCols": 6,
+    "sticky": "sticky",
+    "bodyH": 4911
+  },
+  {
+    "route": "/partners/apply",
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": 1,
+    "ctas": [
+      "footer-cta"
+    ],
+    "evidence": 0,
+    "fallbacks": 0,
+    "emptyMedia": 0,
+    "imgs": [],
+    "imgBroken": 0,
+    "imgTotal": 0,
+    "footerCols": 6,
+    "sticky": "sticky",
+    "bodyH": 2106
+  },
+  {
+    "route": "/partners/login",
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": 1,
+    "ctas": [],
+    "evidence": 0,
+    "fallbacks": 0,
+    "emptyMedia": 0,
+    "imgs": [],
+    "imgBroken": 0,
+    "imgTotal": 0,
+    "footerCols": 0,
+    "sticky": "static",
+    "bodyH": 969
+  }
+]

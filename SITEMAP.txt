@@ -1,0 +1,228 @@
+TADIRAN TELECOM DEMO WEBSITE SITEMAP
+====================================
+
+Primary navigation
+------------------
+Home
+Products
+Solutions
+Industries
+Partners
+Resources
+Company
+
+
+1. HOME
+-------
+/
+  Home page
+
+
+2. PRODUCTS
+-----------
+/products
+  Products overview
+
+/products/aeonix
+  Aeonix Unified Communications
+
+/products/omnicx
+  OmniCX
+
+/products/ava
+  AVA / AI Voice Assistant
+
+/products/recording-quality
+  Recording & Quality
+
+/products/analytics
+  Analytics & Reporting
+
+/products/mobile-touch
+  Mobile / Touch
+
+
+3. SOLUTIONS
+------------
+/solutions
+  Solutions overview
+
+/solutions/enterprise-communications
+  Enterprise Communications
+
+/solutions/omnichannel-cx
+  Omnichannel Customer Experience
+
+/solutions/ai-analytics
+  AI & Analytics
+
+/solutions/critical-communications
+  Critical Communications
+
+/solutions/security-resilience
+  Security, Resilience & Operations
+
+/solutions/integrations-deployment
+  Integrations & Deployment
+
+/solutions/Cloud Infrastracture
+
+/solutions/OEM
+
+/solutions/MSO
+
+
+4. INDUSTRIES
+-------------
+/industries
+  Industries overview
+
+/industries/transportation
+  Transportation
+
+/industries/power-utilities
+  Power & Utilities
+
+/industries/healthcare
+  Healthcare
+
+/industries/assisted-living
+  Assisted Living
+
+/industries/hospitality
+  Hospitality
+
+/industries/education
+  Education
+
+/industries/alarm-systems
+  Alarm Systems
+
+/industries/financial-services
+  Financial Services
+  Status: Future template. Sector strategy and public proof are pending.
+
+
+5. PARTNERS
+-----------
+/partners
+  Partner Program
+
+/partners/apply
+  Become a Partner
+  Five-step partner qualification form
+
+/partners/login
+  Partner Login
+  Separate authenticated-access surface
+
+
+6. RESOURCES = BLOG
+-------------------
+/resources
+  Blog index and content library
+
+Resources is a blog with custom categories. It is not a separate collection of
+unrelated landing-page types.
+
+Content-type categories:
+  Reports
+  Perspectives / Insights
+  Guides
+  Case Studies
+  Product Updates
+  FAQs
+
+Topic categories / tags:
+  Deployment
+  AI & Analytics
+  Resilience
+  Industries
+  OmniCX
+
+Recommended CMS URL model:
+  /resources/{post-slug}
+    Individual blog post
+
+  /resources/category/{category-slug}
+    Filtered blog category archive
+
+  /resources/topic/{topic-slug}
+    Filtered topic archive
+
+The demo currently implements /resources as the routed blog index. Individual
+post and category routes are content-model recommendations and are not separate
+React routes yet.
+
+Existing demo blog entries:
+  enterprise-guide-hybrid-communications
+    Type: Report
+    Topic: Deployment
+
+  practical-ai-customer-conversation
+    Type: Perspective
+    Topic: AI & Analytics
+
+  communications-operational-continuity
+    Type: Guide
+    Topic: Resilience
+
+  mission-critical-operating-environment
+    Type: Case Study
+    Topic: Industries
+
+  contact-center-quality-visibility
+    Type: Product Update
+    Topic: OmniCX
+
+  cloud-hybrid-on-premise-start
+    Type: FAQ
+    Topic: Deployment
+
+
+7. COMPANY
+----------
+/about
+  About Tadiran
+  Includes heritage, mission, values, global footprint, and leadership
+
+/contact
+  Contact and routed enterprise inquiry form
+
+
+8. CONTACT INTENT VARIANTS
+--------------------------
+These use the same /contact page with query parameters.
+
+/contact?intent=solution
+  Solution inquiry
+
+/contact?intent=industry
+  Industry inquiry
+
+/contact?intent=industry&industry={industry-slug}
+  Industry inquiry with the selected industry preserved
+
+/contact?intent=demo
+  Tailored demo request
+
+/contact?intent=technical
+  Technical discussion
+
+
+9. UTILITY AND PLACEHOLDER DESTINATIONS
+---------------------------------------
+Partner Login:
+  /partners/login
+
+Unknown routes:
+  Redirect to /
+
+Footer legal links in the current demo:
+  Privacy
+  Terms
+  Cookie Settings
+  Accessibility
+
+These legal labels currently route to /contact as placeholders. Dedicated legal
+pages are not implemented in the demo.

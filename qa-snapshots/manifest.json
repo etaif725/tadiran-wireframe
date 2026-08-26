@@ -1,0 +1,242 @@
+[
+  {
+    "name": "01-home",
+    "route": "/",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\01-home.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Intelligence in every interaction.Global heritage. Proven success."
+  },
+  {
+    "name": "02-about",
+    "route": "/about",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\02-about.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Built for communications that cannot fail."
+  },
+  {
+    "name": "03-solutions",
+    "route": "/solutions",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\03-solutions.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Communications designed around your operation."
+  },
+  {
+    "name": "04-solution-enterprise",
+    "route": "/solutions/enterprise-communications",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\04-solution-enterprise.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Enterprise Communications"
+  },
+  {
+    "name": "05-solution-omnicx",
+    "route": "/solutions/omnichannel-cx",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\05-solution-omnicx.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Omnichannel Customer Experience"
+  },
+  {
+    "name": "06-solution-ai",
+    "route": "/solutions/ai-analytics",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\06-solution-ai.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "AI & Analytics"
+  },
+  {
+    "name": "07-solution-critical",
+    "route": "/solutions/critical-communications",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\07-solution-critical.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Critical Communications"
+  },
+  {
+    "name": "08-solution-security",
+    "route": "/solutions/security-resilience",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\08-solution-security.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Security, Resilience & Operations"
+  },
+  {
+    "name": "09-solution-integrations",
+    "route": "/solutions/integrations-deployment",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\09-solution-integrations.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Integrations & Deployment"
+  },
+  {
+    "name": "10-products",
+    "route": "/products",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\10-products.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "One communications foundation. Multiple ways to use it."
+  },
+  {
+    "name": "11-product-aeonix",
+    "route": "/products/aeonix",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\11-product-aeonix.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Aeonix Unified Communications"
+  },
+  {
+    "name": "12-product-omnicx",
+    "route": "/products/omnicx",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\12-product-omnicx.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "OmniCX"
+  },
+  {
+    "name": "13-product-ava",
+    "route": "/products/ava",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\13-product-ava.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "AVA / AI Voice Assistant"
+  },
+  {
+    "name": "14-product-recording",
+    "route": "/products/recording-quality",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\14-product-recording.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Recording & Quality"
+  },
+  {
+    "name": "15-product-analytics",
+    "route": "/products/analytics",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\15-product-analytics.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Analytics & Reporting"
+  },
+  {
+    "name": "16-product-mobile",
+    "route": "/products/mobile-touch",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\16-product-mobile.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Mobile / Touch"
+  },
+  {
+    "name": "17-industries",
+    "route": "/industries",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\17-industries.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Communications shaped around the environment."
+  },
+  {
+    "name": "18-industry-healthcare",
+    "route": "/industries/healthcare",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\18-industry-healthcare.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Healthcare communications"
+  },
+  {
+    "name": "19-industry-utilities",
+    "route": "/industries/power-utilities",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\19-industry-utilities.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Power & Utilities communications"
+  },
+  {
+    "name": "20-industry-transport",
+    "route": "/industries/transportation",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\20-industry-transport.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Transportation communications"
+  },
+  {
+    "name": "21-industry-hospitality",
+    "route": "/industries/hospitality",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\21-industry-hospitality.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Hospitality communications"
+  },
+  {
+    "name": "22-industry-education",
+    "route": "/industries/education",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\22-industry-education.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Education communications"
+  },
+  {
+    "name": "23-industry-assisted",
+    "route": "/industries/assisted-living",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\23-industry-assisted.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Assisted Living communications"
+  },
+  {
+    "name": "24-industry-alarm",
+    "route": "/industries/alarm-systems",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\24-industry-alarm.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Alarm Systems communications"
+  },
+  {
+    "name": "25-industry-finance",
+    "route": "/industries/financial-services",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\25-industry-finance.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Financial Services communications"
+  },
+  {
+    "name": "26-resources",
+    "route": "/resources",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\26-resources.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Ideas for communications that must keep moving."
+  },
+  {
+    "name": "27-contact",
+    "route": "/contact",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\27-contact.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Start with the challenge in front of you."
+  },
+  {
+    "name": "28-partners",
+    "route": "/partners",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\28-partners.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Grow with a communications partner built for complexity."
+  },
+  {
+    "name": "29-partners-apply",
+    "route": "/partners/apply",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\29-partners-apply.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Tell us how you bring value to the market."
+  },
+  {
+    "name": "30-partners-login",
+    "route": "/partners/login",
+    "file": "D:\\WORK 2025\\Tadiran Telecom\\qa-snapshots\\30-partners-login.png",
+    "ok": true,
+    "title": "Tadiran Telecom | Enterprise Communications",
+    "h1": "Sign in"
+  }
+]

@@ -1,0 +1,119 @@
+/* About */
+
+.about-proof {
+  position: relative;
+  z-index: 3;
+  margin-top: -28px;
+}
+
+.about-heritage {
+  padding-top: calc(var(--section) + 20px);
+}
+
+.about-heritage :is(.media-visual, .product-interface, .architecture-diagram) {
+  min-height: 620px;
+}
+
+.about-purpose {
+  color: white;
+  background: var(--navy);
+}
+
+.about-purpose__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-purpose__grid article {
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border: 1px solid var(--line-light);
+  padding: clamp(40px, 6vw, 82px);
+}
+
+.about-purpose__grid article + article {
+  border-left: 0;
+}
+
+.about-purpose h2,
+.about-purpose .eyebrow {
+  color: white;
+}
+
+.about-purpose .eyebrow {
+  color: var(--cyan);
+}
+
+.about-purpose .lede {
+  color: rgba(255, 255, 255, 0.58);
+}
+
+.about-values__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.about-values__grid article {
+  min-height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 34px;
+}
+
+.about-footprint {
+  background: var(--paper);
+}
+
+.about-footprint__map {
+  margin-top: 40px;
+}
+
+.about-footprint__map .architecture-diagram {
+  min-height: 520px;
+}
+
+.about-leadership__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 52px;
+}
+
+.about-leadership__grid article {
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 0 28px 30px;
+  background: white;
+}
+
+.about-leadership__grid :is(.media-visual, .product-interface, .architecture-diagram) {
+  min-height: 270px;
+  margin: 0 -28px 28px;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+@media (max-width: 900px) {
+  .about-purpose__grid,
+  .about-values__grid,
+  .about-leadership__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-purpose__grid article + article {
+    border-left: 1px solid var(--line-light);
+    border-top: 0;
+  }
+
+  .about-heritage :is(.media-visual, .product-interface, .architecture-diagram) {
+    min-height: 380px;
+  }
+}

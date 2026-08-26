@@ -1,0 +1,109 @@
+/* Partner onboarding */
+.onboarding-intro {
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+  margin-top: 24px;
+  padding: clamp(46px, 7vw, 90px);
+  color: white;
+  background:
+    radial-gradient(circle at 84% 16%, rgba(82, 199, 232, 0.35), transparent 30rem),
+    var(--navy);
+}
+
+.onboarding-intro h1,
+.onboarding-intro .eyebrow {
+  color: white;
+}
+
+.onboarding-intro .eyebrow {
+  color: var(--cyan);
+}
+
+.onboarding-intro > p {
+  max-width: 58ch;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.onboarding-intro__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.onboarding-intro__top a {
+  color: white;
+  font-size: 11px;
+}
+
+.onboarding-intro .stepper {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0;
+}
+
+.onboarding-intro .step {
+  color: rgba(255, 255, 255, 0.58);
+}
+
+.onboarding-intro .step::after {
+  background: var(--line-light);
+}
+
+.onboarding-intro .step b {
+  color: white;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 0 0 1px var(--line-light);
+}
+
+.onboarding-intro .step.is-current,
+.onboarding-intro .step.is-done {
+  color: white;
+}
+
+.onboarding-intro .step.is-current b,
+.onboarding-intro .step.is-done b {
+  color: var(--navy);
+  background: var(--cyan);
+}
+
+.onboarding-body {
+  display: grid;
+  grid-template-columns: 0.6fr 1.4fr;
+  align-items: start;
+  gap: clamp(60px, 9vw, 130px);
+  padding-block: var(--section);
+}
+
+.onboarding-aside {
+  position: sticky;
+  top: 150px;
+}
+
+.onboarding-aside h2 {
+  font-size: clamp(2rem, 3.5vw, 3.8rem);
+}
+
+.onboarding-aside > p:not(.eyebrow) {
+  color: var(--muted);
+}
+
+.onboarding-aside > span {
+  display: block;
+  border-left: 2px solid var(--cyan);
+  margin-top: 34px;
+  padding-left: 15px;
+  color: var(--muted);
+  font-family: Manrope, sans-serif;
+  font-size: 8px;
+}
+
+.onboarding-form {
+  border-radius: 10px;
+  padding: clamp(28px, 5vw, 58px);
+  background: white;
+  box-shadow: 0 24px 70px rgba(10, 29, 77, 0.08);
+}
+
+
