@@ -1,24 +1,36 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# dependencies
+node_modules/
 
-node_modules
-dist
-dist-ssr
-*.local
+# next
+.next/
+out/
+.vercel/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# env
+.env*
+!.env.example
+
+# typescript
+*.tsbuildinfo
+
+# tests
+coverage/
+
+# local capture and debug
+.edge-debug/
+.tmp-chrome/
+.tmp-chrome-profile/
+.tmp-shots/
+.verify/
+__gen__/
+.tmp-*
+
+# root QA screenshots
+/*.png
+
+# npm lockfile. this repo uses pnpm.
+package-lock.json
+
+# os
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
