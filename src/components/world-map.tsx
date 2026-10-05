@@ -53,6 +53,7 @@ export function WorldMap() {
               <button
                 type="button"
                 className={`world-map__marker${office.hub ? ' is-hub' : ''}`}
+                aria-label={`${office.city}, ${office.country}`}
                 style={style}
                 aria-describedby={`office-${slug}`}
                 key={office.city}

@@ -175,7 +175,7 @@ export const partnerFaqs = [
   {
     question: 'Is partner access the same as applying?',
     answer:
-      'No. Approved partners sign in through Partner Access. Prospective partners apply. The public form qualifies the opportunity. Portal credentials come after approval.',
+      'No. Approved partners sign in through Partner Login. Prospective partners apply. The public form qualifies the opportunity. Portal credentials come after approval.',
   },
   {
     question: 'Are commissions or discounts listed here?',

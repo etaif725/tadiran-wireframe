@@ -28,7 +28,7 @@ export function Footer() {
             <p className="footer-intro__statement">Intelligence in every interaction.</p>
           </div>
           <div className="footer-intro__aside">
-            <p>Shape cloud, hybrid, or on-premise communications around the operation you already run.</p>
+            <p>Connect your people and business systems with cloud, hybrid, or on-premise communications.</p>
             <Link className="action footer-cta" href="/contact">
               <span>Start a conversation</span>
               <span className="action__icon" aria-hidden="true">
@@ -80,7 +80,7 @@ export function Footer() {
                 {link.label}
               </Link>
             ))}
-            <Link href="/partners/login">Partner Access</Link>
+            <Link href="/partners/login">Partner Login</Link>
           </div>
           <a href="#main" className="footer-back">
             Back to top

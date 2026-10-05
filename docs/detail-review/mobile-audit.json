@@ -1,0 +1,92 @@
+[
+  {
+    "path": "products/aeonix",
+    "overflow": false,
+    "wide": [],
+    "width": 320
+  },
+  {
+    "path": "products/omnicx",
+    "overflow": false,
+    "wide": [],
+    "width": 320
+  },
+  {
+    "path": "products/ava",
+    "overflow": false,
+    "wide": [],
+    "width": 320
+  },
+  {
+    "path": "products/recording-quality",
+    "overflow": false,
+    "wide": [],
+    "width": 320
+  },
+  {
+    "path": "products/analytics",
+    "overflow": false,
+    "wide": [],
+    "width": 320
+  },
+  {
+    "path": "products/mobile-touch",
+    "overflow": false,
+    "wide": [],
+    "width": 320
+  },
+  {
+    "path": "solutions/enterprise-communications",
+    "overflow": false,
+    "wide": [],
+    "width": 320
+  },
+  {
+    "path": "solutions/omnichannel-cx",
+    "overflow": false,
+    "wide": [],
+    "width": 320
+  },
+  {
+    "path": "solutions/ai-analytics",
+    "overflow": false,
+    "wide": [],
+    "width": 320
+  },
+  {
+    "path": "solutions/critical-communications",
+    "overflow": false,
+    "wide": [],
+    "width": 320
+  },
+  {
+    "path": "solutions/security-resilience",
+    "overflow": false,
+    "wide": [],
+    "width": 320
+  },
+  {
+    "path": "solutions/integrations-deployment",
+    "overflow": false,
+    "wide": [],
+    "width": 320
+  },
+  {
+    "path": "solutions/cloud-infrastructure",
+    "overflow": false,
+    "wide": [],
+    "width": 320
+  },
+  {
+    "path": "solutions/oem",
+    "overflow": false,
+    "wide": [],
+    "width": 320
+  },
+  {
+    "path": "solutions/mso",
+    "overflow": false,
+    "wide": [],
+    "width": 320
+  }
+]

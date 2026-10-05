@@ -1,0 +1,82 @@
+[
+  {
+    "file": "company-cover.png",
+    "source": "Tadiran_Telecom_Company_Profile.pdf",
+    "pdfImageXref": 5,
+    "width": 1672,
+    "height": 941,
+    "treatment": "Extracted original with original transparency; no retouching or generation",
+    "browserFile": "company-cover.webp",
+    "browserBytes": 28092
+  },
+  {
+    "file": "business-phone.png",
+    "source": "Tadiran_Telecom_Company_Profile.pdf",
+    "pdfImageXref": 43,
+    "width": 1156,
+    "height": 783,
+    "treatment": "Extracted original with original transparency; no retouching or generation",
+    "browserFile": "business-phone.webp",
+    "browserBytes": 52682
+  },
+  {
+    "file": "communications-devices.png",
+    "source": "Tadiran_Telecom_Company_Profile.pdf",
+    "pdfImageXref": 228,
+    "width": 1275,
+    "height": 531,
+    "treatment": "Extracted original with original transparency; no retouching or generation",
+    "browserFile": "communications-devices.webp",
+    "browserBytes": 54328
+  },
+  {
+    "file": "aeonix-mobile.png",
+    "source": "Tadiran_Telecom_Company_Profile.pdf",
+    "pdfImageXref": 311,
+    "width": 812,
+    "height": 1488,
+    "treatment": "Extracted original with original transparency; no retouching or generation",
+    "browserFile": "aeonix-mobile.webp",
+    "browserBytes": 45382
+  },
+  {
+    "file": "omnicx-workspace.png",
+    "source": "Tadiran_Telecom_Company_Profile.pdf",
+    "pdfImageXref": 346,
+    "width": 1778,
+    "height": 1000,
+    "treatment": "Extracted original with original transparency; no retouching or generation",
+    "browserFile": "omnicx-workspace.webp",
+    "browserBytes": 42344
+  },
+  {
+    "file": "tel-aviv-red-line.png",
+    "source": "Tadiran_Telecom_Company_Profile.pdf",
+    "pdfImageXref": 367,
+    "width": 2600,
+    "height": 1733,
+    "treatment": "Extracted original with original transparency; no retouching or generation",
+    "browserFile": "tel-aviv-red-line.webp",
+    "browserBytes": 147136
+  },
+  {
+    "file": "connolly-hospital.png",
+    "source": "Tadiran_Telecom_Company_Profile.pdf",
+    "pdfImageXref": 399,
+    "width": 770,
+    "height": 513,
+    "treatment": "Extracted original with original transparency; no retouching or generation",
+    "browserFile": "connolly-hospital.webp",
+    "browserBytes": 43754
+  },
+  {
+    "file": "norman-hotel.png",
+    "source": "Tadiran_Telecom_Company_Profile.pdf",
+    "pdfImageXref": 428,
+    "width": 1200,
+    "height": 801,
+    "treatment": "Extracted original with original transparency; no retouching or generation",
+    "browserFile": "norman-hotel.webp",
+    "browserBytes": 141860
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "route": "products/omnicx",
+    "viewport": 1440,
+    "layers": [
+      {
+        "clearance": 36,
+        "contained": true,
+        "scene": "product-composition product-composition--workspace product-composition--hero product-composition--home-cx"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "products/aeonix",
+    "viewport": 1440,
+    "layers": [
+      {
+        "clearance": 32,
+        "contained": true,
+        "scene": "product-composition product-composition--phone product-composition--hero product-composition--aeonix"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "products/mobile-touch",
+    "viewport": 1440,
+    "layers": [
+      {
+        "clearance": 32,
+        "contained": true,
+        "scene": "product-composition product-composition--mobile product-composition--hero product-composition--mobile-touch"
+      },
+      {
+        "clearance": 31,
+        "contained": true,
+        "scene": "product-composition product-composition--mobile product-composition--feature product-composition--hospitality"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "solutions/omnichannel-cx",
+    "viewport": 1440,
+    "layers": [
+      {
+        "clearance": 36,
+        "contained": true,
+        "scene": "product-composition product-composition--workspace product-composition--feature product-composition--home-cx"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "solutions/enterprise-communications",
+    "viewport": 1440,
+    "layers": [
+      {
+        "clearance": 31,
+        "contained": true,
+        "scene": "product-composition product-composition--phone product-composition--feature product-composition--aeonix"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "products/omnicx",
+    "viewport": 768,
+    "layers": [
+      {
+        "clearance": 21,
+        "contained": true,
+        "scene": "product-composition product-composition--workspace product-composition--hero product-composition--home-cx"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "products/aeonix",
+    "viewport": 768,
+    "layers": [
+      {
+        "clearance": 17,
+        "contained": true,
+        "scene": "product-composition product-composition--phone product-composition--hero product-composition--aeonix"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "products/mobile-touch",
+    "viewport": 768,
+    "layers": [
+      {
+        "clearance": 19,
+        "contained": true,
+        "scene": "product-composition product-composition--mobile product-composition--hero product-composition--mobile-touch"
+      },
+      {
+        "clearance": 16,
+        "contained": true,
+        "scene": "product-composition product-composition--mobile product-composition--feature product-composition--hospitality"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "solutions/omnichannel-cx",
+    "viewport": 768,
+    "layers": [
+      {
+        "clearance": 21,
+        "contained": true,
+        "scene": "product-composition product-composition--workspace product-composition--feature product-composition--home-cx"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "solutions/enterprise-communications",
+    "viewport": 768,
+    "layers": [
+      {
+        "clearance": 16,
+        "contained": true,
+        "scene": "product-composition product-composition--phone product-composition--feature product-composition--aeonix"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "products/omnicx",
+    "viewport": 390,
+    "layers": [
+      {
+        "clearance": 20,
+        "contained": true,
+        "scene": "product-composition product-composition--workspace product-composition--hero product-composition--home-cx"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "products/aeonix",
+    "viewport": 390,
+    "layers": [
+      {
+        "clearance": 17,
+        "contained": true,
+        "scene": "product-composition product-composition--phone product-composition--hero product-composition--aeonix"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "products/mobile-touch",
+    "viewport": 390,
+    "layers": [
+      {
+        "clearance": 20,
+        "contained": true,
+        "scene": "product-composition product-composition--mobile product-composition--hero product-composition--mobile-touch"
+      },
+      {
+        "clearance": 20,
+        "contained": true,
+        "scene": "product-composition product-composition--mobile product-composition--feature product-composition--hospitality"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "solutions/omnichannel-cx",
+    "viewport": 390,
+    "layers": [
+      {
+        "clearance": 20,
+        "contained": true,
+        "scene": "product-composition product-composition--workspace product-composition--feature product-composition--home-cx"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "solutions/enterprise-communications",
+    "viewport": 390,
+    "layers": [
+      {
+        "clearance": 17,
+        "contained": true,
+        "scene": "product-composition product-composition--phone product-composition--feature product-composition--aeonix"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "products/omnicx",
+    "viewport": 320,
+    "layers": [
+      {
+        "clearance": 16,
+        "contained": true,
+        "scene": "product-composition product-composition--workspace product-composition--hero product-composition--home-cx"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "products/aeonix",
+    "viewport": 320,
+    "layers": [
+      {
+        "clearance": 13,
+        "contained": true,
+        "scene": "product-composition product-composition--phone product-composition--hero product-composition--aeonix"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "products/mobile-touch",
+    "viewport": 320,
+    "layers": [
+      {
+        "clearance": 16,
+        "contained": true,
+        "scene": "product-composition product-composition--mobile product-composition--hero product-composition--mobile-touch"
+      },
+      {
+        "clearance": 16,
+        "contained": true,
+        "scene": "product-composition product-composition--mobile product-composition--feature product-composition--hospitality"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "solutions/omnichannel-cx",
+    "viewport": 320,
+    "layers": [
+      {
+        "clearance": 16,
+        "contained": true,
+        "scene": "product-composition product-composition--workspace product-composition--feature product-composition--home-cx"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "solutions/enterprise-communications",
+    "viewport": 320,
+    "layers": [
+      {
+        "clearance": 13,
+        "contained": true,
+        "scene": "product-composition product-composition--phone product-composition--feature product-composition--aeonix"
+      }
+    ],
+    "overflow": false
+  }
+]

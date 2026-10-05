@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
+import {RelationshipMotion} from '@/components/relationship-motion'
 import { Clock3, ShieldCheck } from 'lucide-react'
 import { InquiryForm } from '@/components/inquiry-form'
 import { inquiryConfiguration } from '@/lib/config'
@@ -20,16 +22,18 @@ export default async function Apply({
   const config = inquiryConfiguration()
 
   return (
-    <div className="page partner-apply-page">
+    <RelationshipMotion className="page partner-apply-page relationship-page">
       <section className="partner-application">
         <div className="container partner-application__layout">
           <aside className="partner-application__intro">
             <Eyebrow>Become a partner</Eyebrow>
-            <h1>Start with the business you already know.</h1>
+            <h1>Let’s build<br/><em>your next chapter.</em></h1>
             <p>
               Give our channel team enough context to assess fit. Commercial terms and program
               commitments follow a direct review.
             </p>
+            <Link className="cine-button relationship-form-jump" href="#partner-form">Start your application ↓</Link>
+            <div className="application-photo" data-photo><Image src="/brand/cinema/sections/integrations-deployment.png" alt="A team planning a technology deployment" fill sizes="(max-width:760px) 100vw,40vw"/></div>
             <dl>
               <div>
                 <dt>
@@ -51,14 +55,14 @@ export default async function Apply({
             </Link>
           </aside>
 
-          <InquiryForm
+          <div className="partner-application__form" id="partner-form"><InquiryForm
             kind="partner"
             {...config}
             privacyUrl={config.privacyUrl || ''}
             partnerType={type?.slice(0, 100) || ''}
-          />
+          /></div>
         </div>
       </section>
-    </div>
+    </RelationshipMotion>
   )
 }

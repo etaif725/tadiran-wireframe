@@ -9,6 +9,14 @@ import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { ScrollProgress } from '@/components/scroll-progress'
 import '@/styles/modern.css'
+import '@/styles/brand-2027.css'
+import '@/styles/cinema.css'
+import '@/styles/cinema-compositions.css'
+import '@/styles/motion-system.css'
+import '@/styles/relationship-pages.css'
+import '@/styles/solutions-experience.css'
+import '@/styles/offering-details.css'
+import '@/styles/product-compositions.css'
 
 export const metadata: Metadata = {
   title: {

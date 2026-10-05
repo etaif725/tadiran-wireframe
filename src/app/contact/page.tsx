@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
+import {RelationshipMotion} from '@/components/relationship-motion'
 import { InquiryForm } from '@/components/inquiry-form'
 import { inquiryConfiguration } from '@/lib/config'
 
@@ -29,15 +31,17 @@ export default async function Contact({
   const topic = askedAbout || topicFromIntent(intent)
 
   return (
-    <div className="page">
+    <RelationshipMotion className="page contact-page relationship-page">
       <section className="section contact-stage" id="inquiry" aria-labelledby="contact-title">
         <div className="container contact-board">
-          <header className="contact-copy">
+          <header className="contact-copy" data-arrive>
             <p className="eyebrow">Contact Tadiran Telecom</p>
-            <h1 id="contact-title">How can we help?</h1>
-            <p>Tell us what you need. We’ll connect you with the right sales, product, partner, or regional specialist. Most inquiries receive a response within one business day.</p>
+            <h1 id="contact-title">Good connections<br/><em>start here.</em></h1>
+            <p>Tell us what you need. We’ll connect you with the right sales, product, partner, or regional specialist.</p>
             {askedAbout ? <p className="contact-copy__route">We’ll route your request about {askedAbout} to the right team.</p> : null}
-            <dl className="contact-copy__desks">
+            <Link className="cine-button relationship-form-jump" href="#contact-form">Start a conversation ↓</Link>
+            <div className="contact-photo" data-photo><Image src="/brand/cinema/sections/omnichannel-cx.png" alt="A personal service conversation" fill sizes="(max-width:760px) 100vw,45vw"/><span>People ready to help you move forward.</span></div>
+            <dl className="contact-copy__desks" data-stagger>
               <div>
                 <dt>Sales and solutions</dt>
                 <dd>Evaluate a solution, request a demonstration, or discuss deployment options.</dd>
@@ -62,11 +66,11 @@ export default async function Contact({
               </div>
             </dl>
           </header>
-          <div className="contact-side">
+          <div className="contact-side" id="contact-form" data-arrive>
             <InquiryForm {...config} privacyUrl={config.privacyUrl || ''} interest={topic} />
           </div>
         </div>
       </section>
-    </div>
+    </RelationshipMotion>
   )
 }

@@ -1,0 +1,258 @@
+[
+  {
+    "key": "healthcare",
+    "layout": "split-right",
+    "output": "public/brand/cinema/sections/healthcare.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-ac3c2bbf-559e-422a-973d-304c55f7eeeb.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A hospital nurse in navy scrubs talking attentively with a female doctor beside a modern nurses station; their work is coordinating care, tablet resting on counter. Bright calm hospital with pale oak, frosted glass and ivory walls. No patient, no procedure. Medium wide candid moment. Composition requirement: Landscape 4:3, intimate medium shot with BOTH people near the CENTER. Fill frame naturally; no blank copy area. This photo occupies the RIGHT panel beside separate HTML text."
+  },
+  {
+    "key": "hospitality",
+    "layout": "panorama",
+    "output": "public/brand/cinema/sections/hospitality.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-f9ede382-300b-4e5b-8cba-08932742ca9c.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A hotel concierge in tailored navy welcoming an arriving female guest at a beautiful contemporary boutique hotel reception, light travertine counter, warm oak, greenery, natural daylight. Genuine eye contact and subtle smile. Wide architectural view. Composition requirement: Landscape 16:9 architectural establishing shot, concierge at LEFT third, guest near CENTER, lobby spans frame. No reserved copy area; HTML heading sits ABOVE the photograph."
+  },
+  {
+    "key": "transportation",
+    "layout": "split-left",
+    "output": "public/brand/cinema/sections/transportation.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-c314869a-d2ad-4191-b0cf-663a04373aa6.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. An adult rail operations controller with discreet headset seen in three-quarter profile , foreground console, a sunlit modern metro station and train visible beyond glass. Precise professional environment, no invented readable dashboard. Wide cinematic view. Composition requirement: Landscape 4:3, operator in LEFT third with console extending to right, detailed environment. This is LEFT image panel; copy lives outside the photo on right."
+  },
+  {
+    "key": "power-utilities",
+    "layout": "panorama",
+    "output": "public/brand/cinema/sections/power-utilities.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-6dc510b8-dee0-4702-bbf1-bd2cfeb57424.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. Two electrical utility engineers wearing properly fastened white safety helmets and navy workwear standing safely on a walkway overlooking a solar installation and distant substation, reviewing a tablet. Clear morning light, warm natural terrain. Wide establishing view. Composition requirement: Landscape 16:9 panoramic environmental shot, small engineers in LOWER LEFT third, solar landscape sweeping across frame. Heading sits above; no blank zone."
+  },
+  {
+    "key": "education",
+    "layout": "split-left",
+    "output": "public/brand/cinema/sections/education.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-2c890687-6406-421f-9122-334dca4e55e3.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A university learning-technology coordinator and adult lecturer collaborating beside a laptop in a bright modern campus library, students softly distant. Oak desks, cream walls, generous daylight. Candid grounded moment, not posing at camera. Composition requirement: Landscape 4:3, eye-level balanced composition with two people near CENTER, bookcases frame both edges. Image panel left and separate text right."
+  },
+  {
+    "key": "assisted-living",
+    "layout": "split-right",
+    "output": "public/brand/cinema/sections/assisted-living.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-0dc55486-5582-410a-bb08-883aa5784509.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. An older adult woman with silver hair and a warm smile speaking with a professional female care coordinator at a welcoming senior living residence. Both comfortably seated, tablet in caregiver lap, cream textiles, pale timber and garden daylight. Dignified adults at eye level. Composition requirement: Landscape 4:3, intimate eye-level two-person portrait, faces symmetrically flanking center, genuine interaction, no empty space."
+  },
+  {
+    "key": "alarm-systems",
+    "layout": "split-left",
+    "output": "public/brand/cinema/sections/alarm-systems.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-1c8ce94e-f516-404b-a0ca-e5bc48dd50bb.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A professional security monitoring operator in navy business clothing wearing a light headset at a calm, bright alarm response center. Side profile, abstract unlabelled status screens in background, glass and warm wood. Focused, reassuring, no emergency scene. Composition requirement: Landscape 4:3 over-the-shoulder shot from behind operator at LEFT, monitors fill remaining depth. No blank copy area."
+  },
+  {
+    "key": "financial-services",
+    "layout": "split-right",
+    "output": "public/brand/cinema/sections/financial-services.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-864e963e-fa2a-4198-9e67-5fdf2147a3d1.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A banking relationship adviser in a warm modern private meeting room attentively listening to a business customer, slim laptop and documents with no legible writing. Warm stone, oak, daylight, navy tailoring. Wide candid editorial composition. Composition requirement: Landscape 4:3, balanced candid across-the-table composition, people across CENTER, crop close enough to convey listening."
+  },
+  {
+    "key": "omnicx",
+    "layout": "split-left",
+    "output": "public/brand/cinema/sections/omnicx.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-e32fa471-5118-4122-a848-5510b798a8e4.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A female contact center team leader in teal blouse and a male agent with headset coordinating at a workstation, bright sophisticated service office, natural expressions, monitor angled away without legible UI.  Composition requirement: Landscape 4:3, two service colleagues centered, close candid working moment, no empty left/right area. Separate image panel LEFT of copy."
+  },
+  {
+    "key": "aeonix",
+    "layout": "split-right",
+    "output": "public/brand/cinema/sections/aeonix.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-87fa17de-fc21-4f36-98c5-7df57d35e93e.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A male architect in a navy overshirt taking a business call on a smartphone beside floor-to-ceiling windows overlooking a city, laptop and rolled drawings on desk, warm morning daylight.  No headset. Composition requirement: Landscape 4:3, full environmental portrait, architect centered beside window, photograph fills its own panel, no empty copy area."
+  },
+  {
+    "key": "ava",
+    "layout": "split-left",
+    "output": "public/brand/cinema/sections/ava.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-0206448d-afec-43ba-a0bd-19444e373576.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A customer service specialist with short hair listening through a small wireless earpiece, looking at a laptop, thoughtful expression. Three small translucent soft cyan glass shapes float subtly at desk level suggesting assistance, not a robot or fake UI. Pale oak studio office. Composition requirement: Square-ish landscape 4:3 close-up portrait, specialist CENTER LEFT, laptop soft focus foreground right. All visual motifs confined to natural desk reflections, no floating shapes."
+  },
+  {
+    "key": "recording-quality",
+    "layout": "split-right",
+    "output": "public/brand/cinema/sections/recording-quality.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-7b03d23a-d3e1-41d3-b884-aaea8a2f190b.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A customer service quality coach and headset-wearing colleague reviewing a conversation together at a desk, over-the-shoulder composition, audio waveform abstract and out of focus on monitor without words. Warm ivory office and navy clothing. Composition requirement: Landscape 4:3 over-the-shoulder composition from behind coach, colleague face CENTER, monitor at LEFT edge. No empty copy area."
+  },
+  {
+    "key": "analytics",
+    "layout": "panorama",
+    "output": "public/brand/cinema/sections/analytics.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-837577b3-5e6f-4b65-a194-5b2514760800.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A business analyst standing at a large wall display with clean unlabelled abstract blue bars and trend lines, seen three-quarter from behind . Bright contemporary strategy room, long oak table, navy and muted cyan, morning light. No numbers or fake metrics. Composition requirement: Landscape 16:9 wide strategy-room shot, analyst at LEFT third, screen CENTER, oak table toward foreground. Heading above image. Cast: Black British female analyst, short natural hair."
+  },
+  {
+    "key": "mobile-touch",
+    "layout": "split-left",
+    "output": "public/brand/cinema/sections/mobile-touch.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-b0589621-3426-4cd1-9ab4-26b397e639c3.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A professional woman with straight dark hair and navy jacket using a smartphone while walking through a bright office courtyard, pale limestone architecture and soft green plants. Dynamic candid full-height environmental view, subject in context. Composition requirement: Landscape 4:3 full-height environmental portrait, professional centered walking toward camera, architectural leading lines. No empty copy area. Cast: East Asian woman with straight dark bob."
+  },
+  {
+    "key": "enterprise-communications",
+    "layout": "panorama",
+    "output": "public/brand/cinema/sections/enterprise-communications.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-1f3131d4-2105-4998-99e1-be00618ba911.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A distributed project team in a warm contemporary meeting room, two colleagues  of a long oak table conversing with a remote colleague visible on a wall screen. Unbranded screen no text, pale walls, clean architecture and bright daylight. Composition requirement: Landscape 16:9 room-wide view, people distributed along table LEFT and CENTER, remote screen on RIGHT. Balanced full-frame editorial image; heading above. Cast: Black male project lead and East Asian female architect."
+  },
+  {
+    "key": "omnichannel-cx",
+    "layout": "split-right",
+    "output": "public/brand/cinema/sections/omnichannel-cx.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-034d9024-2fdb-4fd3-81d6-efa6f8b035ab.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A young adult customer at a sunlit kitchen island continuing a service conversation on a smartphone, open laptop nearby and a small parcel on counter. Warm domestic architecture, oak and ivory, natural human moment . No headphones. Composition requirement: Landscape 4:3 natural domestic medium shot, person centered, phone and parcel in foreground, no blank copy space. Cast: South Asian man with short hair."
+  },
+  {
+    "key": "ai-analytics",
+    "layout": "split-left",
+    "output": "public/brand/cinema/sections/ai-analytics.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-5d1aa188-56d9-4daa-81cb-1ef17dd969e7.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A female operations strategist discussing an abstract translucent blue data visualization with a colleague at a bright innovation studio desk, restrained believable screen technology, no holographic room or robot. Navy clothing, warm ivory and oak. Composition requirement: Landscape 4:3 two professionals balanced around a real monitor, CENTER composition, subtle cyan glass reflections, no floating UI or text. Cast: Black woman with close-cropped hair and East Asian male colleague."
+  },
+  {
+    "key": "critical-communications",
+    "layout": "panorama",
+    "output": "public/brand/cinema/sections/critical-communications.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-ce7a01bf-e62e-4215-8919-05be0dd99dc0.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A senior emergency coordination professional in navy collared shirt communicating through a headset at a bright municipal operations room, colleagues and city map softly visible. Quiet professional preparedness, no disaster. Subject . Composition requirement: Landscape 16:9 deep-focus operations-room view, senior coordinator LEFT third, other colleagues CENTER and RIGHT, full environment. Heading above. Cast: mature East Asian man with short silver hair."
+  },
+  {
+    "key": "security-resilience",
+    "layout": "split-right",
+    "output": "public/brand/cinema/sections/security-resilience.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-9dfc186a-ec11-4c7b-9110-d7bf88b6197a.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A cybersecurity engineer in navy shirt standing beside a softly lit glass-enclosed server room, reviewing status on a tablet. Warm neutral foreground office contrasts with restrained cool cyan server lighting, trustworthy calm, no locks/shields floating. Composition requirement: Landscape 4:3 engineer in CENTER, server depth behind creates leading lines, image fills separate panel. Cast: South Asian woman with straight hair tied back."
+  },
+  {
+    "key": "integrations-deployment",
+    "layout": "split-left",
+    "output": "public/brand/cinema/sections/integrations-deployment.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-e65eb0f6-0511-4c2c-a177-74a789488e9d.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. Two enterprise systems engineers connecting a compact unbranded communications rack in a bright equipment lab, one holding tablet, neat blue cables, navy workwear. Warm architectural daylight and pale workbench. Precise practical teamwork. Composition requirement: Landscape 4:3 close-up of two engineers' hands and compact equipment on oak workbench, faces partial upper frame, centered practical work. No empty copy zone. Cast: Black male engineer and white female engineer."
+  },
+  {
+    "key": "cloud-infrastructure",
+    "layout": "panorama",
+    "output": "public/brand/cinema/sections/cloud-infrastructure.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-ba012b4d-50cd-4398-8400-c6880ccc316b.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A cloud infrastructure architect in a sunlit high-rise workspace looking across the city while working at a slim laptop, distant skyline reflections in glass, warm ivory with subtle cool cyan reflections. Wide environmental composition . Composition requirement: Landscape 16:9 skyline-led image, architect small at LEFT edge, city and glass architecture fill frame. Wide sense of scale; heading above."
+  },
+  {
+    "key": "oem",
+    "layout": "split-right",
+    "output": "public/brand/cinema/sections/oem.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-807f2004-610b-4dc4-bce3-1236c2aa7062.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A product engineer in a pale warm technology laboratory examining an unbranded compact communications circuit assembly at a clean workbench, colleague softly behind, navy overshirt, small tools neatly arranged. Human craftsmanship meets enterprise technology. Composition requirement: Landscape 4:3 macro editorial view of engineer working carefully on circuit assembly, hands and assembly CENTER focus, human face softly behind."
+  },
+  {
+    "key": "mso",
+    "layout": "split-left",
+    "output": "public/brand/cinema/sections/mso.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-6d2ee07a-3dae-49ff-af8e-273407581d6f.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A managed service provider specialist and regional business customer reviewing an implementation together at a warm oak meeting table, subtle network equipment and glass walls behind, natural reassuring exchange, navy professional clothing. Composition requirement: Landscape 4:3 two equal partners facing each other across table, centered laptop, balanced composition, no empty copy zone."
+  },
+  {
+    "key": "company",
+    "layout": "panorama",
+    "output": "public/brand/cinema/sections/company.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-d0529263-4ceb-45f7-9eb4-1c7915408a07.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A diverse group of four adult telecommunications colleagues walking together in a warm contemporary office atrium with pale limestone, oak, glass and daylight. Casual conversation, candid connection, full architectural environmental portrait, no looking at camera. Composition requirement: Landscape 16:9 environmental group portrait, colleagues across CENTER of frame with atrium spanning both sides. Heading above."
+  },
+  {
+    "key": "partners",
+    "layout": "split-left",
+    "output": "public/brand/cinema/sections/partners.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-cdb86b1f-307b-48b0-8797-0b3da861d258.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. Two regional technology partners, a South Asian woman and Mediterranean man, collaborating on a proposal over a laptop at an airy oak conference table, warm daylight, ivory architecture, navy tailoring. Authentic peer collaboration, not staged handshake. Composition requirement: Landscape 4:3, partners balanced at LEFT and RIGHT of centered laptop, photograph fills separate left-side panel."
+  },
+  {
+    "key": "resources",
+    "layout": "split-right",
+    "output": "public/brand/cinema/sections/resources.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-1879e2e2-b177-4cf0-ac49-f2eb08106da1.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A technology professional with glasses reading a paper guide and making notes beside a laptop in a bright quiet office library, pale oak shelves, cream surfaces, natural sunlight, thoughtfully candid. Composition requirement: Landscape 4:3 elevated editorial close-up of hands writing notes beside open reference guide and laptop, face partially at upper frame, desk fills frame."
+  },
+  {
+    "key": "products-overview",
+    "layout": "panorama",
+    "output": "public/brand/cinema/sections/products-overview.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-29ec54c6-2a89-451c-9828-c4c8f6a81a81.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A sculptural still life representing connected technology: three translucent cyan glass loops and brushed navy metal arcs interlocking above a warm ivory limestone plinth, soft realistic studio daylight, precise premium material texture. Landscape 16:9, centered balanced arrangement spanning full frame, no people, no devices, no words or logos, no empty headline zone. This is an abstract brand image, product interfaces are shown separately."
+  },
+  {
+    "key": "solutions-overview",
+    "layout": "split-left",
+    "output": "public/brand/cinema/sections/solutions-overview.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-6e33c605-2e57-4a67-91f8-a07cc164d89f.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. An enterprise planning team of three professionals around an expansive architectural meeting table in a bright glass office, seen from elevated wide angle, sketching a simple unlabelled connection diagram on paper.  Composition requirement: Landscape 4:3 overhead editorial view of planning team hands and sketch paper around oak table; human collaboration, full frame, no blank side."
+  },
+  {
+    "key": "industries-overview",
+    "layout": "panorama",
+    "output": "public/brand/cinema/sections/industries-overview.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-bf03cde2-57c6-413f-b39e-868220219f1f.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A sunlit modern city district viewed from an elevated terrace, showing recognizable contemporary hospital, rail station, university-style building and commercial offices within one believable urban landscape. No collage, no labels, no people foreground. Warm limestone and subtle blue glass. Spatial storytelling. Composition requirement: Landscape 16:9 city-wide panorama, buildings layered across full frame, realistic one location. No blank copy area."
+  },
+  {
+    "key": "home-cx",
+    "layout": "feature",
+    "output": "public/brand/cinema/sections/home-cx.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-53d70408-3054-4d66-83d2-133c11599761.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A close candid portrait of a smiling female service professional wearing a light headset at a warm oak desk, ivory wall and natural daylight, navy blouse,  Composition requirement: Landscape 4:3 close-up of agent centered LEFT, monitor edge right, no reserved space for overlays; real software screenshot will sit in a SEPARATE adjacent panel."
+  },
+  {
+    "key": "home-uc",
+    "layout": "feature",
+    "output": "public/brand/cinema/sections/home-uc.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-4cf7e3a4-222f-4ec2-88f8-bfd0016265fc.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate ONE unbroken photorealistic editorial photograph, landscape 4:3. An adult male field project manager, short grey hair and navy work shirt, standing CENTER on a bright contemporary building terrace, holding a smartphone naturally to his ear while speaking. Phone SCREEN is not visible. Warm limestone balustrade, distant city, subtle green plants, morning sunlight. Medium environmental portrait, hands and face anatomically realistic, calm professional expression. Fill entire image with this ONE camera view. No collage, no split-screen, no inset, no device close-up, no UI, no text, no logos, no watermark, no light trail. Do not add any foreground smartphone. Warm premium Tadiran campaign style, ivory architecture and navy workwear."
+  },
+  {
+    "key": "home-hospitality",
+    "layout": "feature",
+    "output": "public/brand/cinema/sections/home-hospitality.png",
+    "source": "C:\\Users\\Etai\\.codex\\generated_images\\01a0fe95-4c23-7880-9066-3af55626bd75\\exec-405dd631-8005-40d7-b803-7d4e067a84fc.png",
+    "tool": "built-in image_gen",
+    "prompt": "Generate one premium photorealistic Tadiran Telecom website campaign photograph. Consistent warm welcoming enterprise brand: natural daylight, ivory architecture, oak and warm stone, navy clothing and subtle cyan accents. Realistic adult people and hands. NO text, logos, watermark, collage, fake branded products, neon light trails or generic floating interface. Follow the INDIVIDUAL composition requirement, do not impose a standard right-sided subject or left blank space. A hotel team member carrying a tablet while assisting an arriving guest in an airy boutique hotel lobby, warm natural stone and oak, beautiful morning light, slightly wider full-body view.  Composition requirement: Landscape 16:9 wide hotel arrival scene with guest at LEFT and host at CENTER, lovely lobby across width. Lower third dark warm furnishing permits short white HTML caption."
+  }
+]

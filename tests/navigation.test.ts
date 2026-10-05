@@ -14,7 +14,7 @@ function hrefsFromNav() {
 }
 
 describe('wireframe navbar destinations', () => {
-  it('keeps industries nested under solutions instead of as a root item', () => {
+  it('keeps the supplied navbar hierarchy', () => {
     expect(primaryNav.map((item) => item.label)).toEqual([
       'Products',
       'Solutions',
@@ -22,8 +22,12 @@ describe('wireframe navbar destinations', () => {
       'Resources',
       'Company',
     ])
-    const solutions = primaryNav.find((item) => item.id === 'solutions')
-    expect(solutions?.menu.industries?.links.map((link) => link.href)).toEqual([
+    const solutionsItem = primaryNav.find((item) => item.id === 'solutions')
+    expect(solutionsItem?.menu.columns.map((column) => column.title)).toEqual([
+      'Outcome families',
+      'Supporting layers',
+    ])
+    expect(solutionsItem?.menu.industries?.links.map((link) => link.href)).toEqual([
       '/industries/healthcare',
       '/industries/power-utilities',
       '/industries/transportation',
@@ -31,7 +35,10 @@ describe('wireframe navbar destinations', () => {
       '/industries/hospitality',
       '/industries/education',
       '/industries/assisted-living',
+      '/industries/financial-services',
     ])
+    expect(solutionsItem?.menu.industries?.viewAll.href).toBe('/industries')
+    expect(primaryNav.find((item) => item.id === 'partners')?.label).toBe('Partners')
   })
 
   it('includes cloud infrastructure, OEM, and MSO', () => {

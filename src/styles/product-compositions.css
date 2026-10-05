@@ -1,0 +1,83 @@
+/* Product art has one coordinate system and a reserved foreground area.
+   Motion travels only 8px inside a minimum 24px inset. */
+.product-composition {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  border-radius: 12px 48px 12px 12px;
+  background: #e7eceb;
+}
+.product-composition__background { object-fit: cover; object-position: center; }
+.product-composition::after {
+  content: '';
+  position: absolute;
+  inset: 65% 0 0;
+  background: linear-gradient(transparent, #07162b24);
+  pointer-events: none;
+}
+.product-composition__object {
+  position: absolute;
+  z-index: 2;
+  right: 5%;
+  bottom: 32px;
+  line-height: 0;
+  filter: drop-shadow(0 16px 18px #05152630);
+}
+.product-composition__object img {
+  position: static;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  object-fit: contain;
+}
+.product-composition--workspace { aspect-ratio: 2.1; }
+.product-composition--workspace .product-composition__background { object-position: 50% 30%; }
+.product-composition--workspace .product-composition__object {
+  width: 47%;
+  right: 3%;
+  bottom: 36px;
+  padding: 5px;
+  border: 1px solid #ffffffb3;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 18px 48px #03142835;
+  filter: none;
+}
+.product-composition--workspace .product-composition__object img { border-radius: 5px; }
+.product-composition--phone { aspect-ratio: 1.04; }
+.product-composition--phone .product-composition__object { width: 66%; }
+.product-composition--mobile { aspect-ratio: .9; border-radius: 120px 120px 12px 12px; }
+.product-composition--mobile .product-composition__object { width: 30%; right: 6%; }
+.product-composition--mobile-touch .product-composition__background { object-position: 38% 50%; }
+.product-composition--hospitality { border-radius: 12px 48px 12px 12px; align-self: center; }
+.product-composition--hospitality .product-composition__background { object-position: 10% center; }
+.product-composition--hospitality .product-composition__object { width: 28%; right: 5%; }
+.offering-cx-workspace .product-composition { margin-bottom: 25px; }
+@media (min-width:761px) and (max-width:1050px) {
+  .product-composition--phone { aspect-ratio: .83; }
+  .product-composition--mobile { aspect-ratio: .72; }
+  .product-composition--workspace { aspect-ratio: 1.8; }
+}
+@media (max-width:760px) {
+  .product-composition { border-radius: 10px 32px 10px 10px; }
+  .product-composition__object { bottom: 24px; }
+  .product-composition--workspace { aspect-ratio: .7; }
+  .product-composition--workspace .product-composition__background { object-position: 48% top; }
+  .product-composition--workspace .product-composition__object {
+    width: 88%;
+    right: 6%;
+    bottom: 24px;
+    padding: 3px;
+    border-radius: 7px;
+  }
+  .product-composition--workspace .product-composition__object img { border-radius: 3px; }
+  .product-composition--phone { aspect-ratio: .85; }
+  .product-composition--phone .product-composition__object { width: 70%; right: 5%; }
+  .product-composition--mobile { aspect-ratio: .75; }
+  .product-composition--mobile .product-composition__background { object-position: 38% center; }
+  .product-composition--mobile .product-composition__object { width: 31%; right: 6%; }
+  .product-composition--hospitality .product-composition__background { object-position: 10% center; }
+}

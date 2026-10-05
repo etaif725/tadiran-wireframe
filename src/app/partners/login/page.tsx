@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { ArrowRight, ExternalLink, HelpCircle, UserPlus } from 'lucide-react'
+import Image from 'next/image'
+import {RelationshipMotion} from '@/components/relationship-motion'
+import { ArrowRight, HelpCircle, UserPlus } from 'lucide-react'
 import { Brand, Eyebrow } from '@/components/ui'
-import { validHttps } from '@/lib/inquiry-schema'
+import { PartnerSignIn } from '@/components/partner-sign-in'
 
 export const metadata: Metadata = {
   title: 'Partner Access',
@@ -11,52 +13,25 @@ export const metadata: Metadata = {
 }
 
 export default function PartnerLogin() {
-  const portal = validHttps(process.env.PARTNER_PORTAL_URL)
-    ? process.env.PARTNER_PORTAL_URL
-    : ''
-
   return (
-    <div className="page partner-login-page">
+    <RelationshipMotion className="page partner-login-page relationship-page">
       <section className="partner-login">
         <div className="container partner-login__panel">
-          <div className="partner-login__main">
+          <div className="partner-login__main" data-arrive>
             <Brand variant="login" />
             <div className="partner-login__copy">
               <Eyebrow>Approved partner access</Eyebrow>
-              <h1>Continue to your Tadiran partner workspace.</h1>
+              <h1>Welcome back.<br/><em>Let’s get to work.</em></h1>
               <p>
-                The partner portal is a separate secure service. Use the account and access
-                details issued by your Tadiran representative.
+                Sign in to your partner account. Your resources, tools and next opportunities are waiting.
               </p>
             </div>
 
-            {portal ? (
-              <a
-                className="action partner-login__portal"
-                href={portal}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Open partner portal</span>
-                <ExternalLink size={16} aria-hidden="true" />
-                <span className="sr-only">Opens in a new tab</span>
-              </a>
-            ) : (
-              <div className="partner-login__unavailable" role="status">
-                <strong>Portal link unavailable</strong>
-                <p>
-                  Use the portal address supplied by your representative, or contact Tadiran for
-                  access help.
-                </p>
-                <Link href="/contact?intent=partner-access">
-                  Request access help
-                  <ArrowRight size={15} aria-hidden="true" />
-                </Link>
-              </div>
-            )}
+            <PartnerSignIn />
           </div>
 
           <aside className="partner-login__help" aria-label="Partner access options">
+            <div className="portal-photo" data-photo><Image src="/brand/cinema/sections/partners.png" alt="Partners collaborating" fill sizes="(max-width:760px) 100vw,40vw"/></div>
             <div>
               <UserPlus size={20} aria-hidden="true" />
               <h2>Applying for the first time?</h2>
@@ -78,6 +53,6 @@ export default function PartnerLogin() {
           </aside>
         </div>
       </section>
-    </div>
+    </RelationshipMotion>
   )
 }

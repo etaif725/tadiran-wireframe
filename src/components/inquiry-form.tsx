@@ -270,7 +270,7 @@ export function InquiryForm({
     const { inquiry } = validateInquiry(draftForValidation())
     if (!inquiry) return
     if (!available) {
-      setStatus('')
+      setStatus('This preview is not connected to a submission destination. Nothing has been sent.')
       return
     }
     if (!token) {
@@ -356,6 +356,8 @@ export function InquiryForm({
             : 'Name, work email, phone, company, and the topic. The right Tadiran team will take it from there.'}
         </p>
       </header>
+
+      {!available && <p className="notice" role="note">Preview form — submissions are not connected. Nothing entered here will be sent.</p>}
 
       {kind === 'partner' && (
         <>
@@ -587,7 +589,7 @@ export function InquiryForm({
           <button
             className="action"
             type="submit"
-            disabled={busy || (kind === 'partner' && isReview && !available)}
+            disabled={busy || (!available && (kind === 'sales' || isReview))}
           >
             {busy
               ? 'Sending…'

@@ -1,3 +1,4 @@
+import { CinemaInterior } from '@/components/cinema-interior'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Action, Eyebrow, PageHero } from '@/components/ui'
@@ -34,13 +35,8 @@ const articles = [
 
 export default function Resources() {
   return (
-    <div className="page">
-      <PageHero
-        id="whats-new"
-        eyebrow="Resources"
-        title="A clearer next question."
-        body="Practical guidance for IT, CX, operations, and channel teams evaluating enterprise communications."
-      />
+    <div className="page resources-page">
+      <CinemaInterior eyebrow="Ideas. Insights. Possibilities." title="Keep the conversation going." body="Explore communications, customer experience and the choices that shape your next step." image="/brand/cinema/sections/resources.png" href="#faq" action="Explore common questions" />
       <section className="section">
         <div className="container resource-rail">
           {articles.map((article) => (

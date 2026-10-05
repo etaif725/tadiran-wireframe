@@ -87,15 +87,19 @@ export function SectionHeading({
 export function Brand({ variant = 'nav' }: { variant?: 'nav' | 'footer' | 'login' }) {
   const src =
     variant === 'footer'
-      ? '/brand/tadiran-lockup-on-dark.svg'
-      : variant === 'login'
-        ? '/brand/tadiran-lockup.svg'
-        : '/brand/tadiran-compact-on-dark.svg'
-  const width = variant === 'footer' ? 280 : variant === 'login' ? 240 : 120
-  const height = variant === 'footer' ? 56 : variant === 'login' ? 56 : 28
+      ? '/brand/tadiran-official-white.png'
+      : '/brand/tadiran-official-lockup.png'
+  const width = variant === 'footer' ? 280 : variant === 'login' ? 240 : 176
+  const height = variant === 'footer' ? 78 : variant === 'login' ? 66 : 49
   return (
     <Link href="/" className={`brand brand--${variant}`} aria-label="Tadiran Telecom home">
-      <Image src={src} alt="Tadiran Telecom" width={width} height={height} priority={variant === 'nav'} />
+      <Image
+        src={src}
+        alt="Tadiran, simply done right."
+        width={width}
+        height={height}
+        priority={variant === 'nav'}
+      />
     </Link>
   )
 }

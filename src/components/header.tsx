@@ -6,7 +6,8 @@ import { createPortal } from 'react-dom'
 import { useEffect, useId, useRef, useState } from 'react'
 import { primaryNav } from '@/content/navigation'
 import { searchCatalog } from '@/content/search'
-import { MediaFrame } from './media-frame'
+import { MenuArt } from './menu-art'
+import {gsap} from '@/lib/gsap'
 import { Brand } from './ui'
 
 const SHOW_SEARCH = false
@@ -44,6 +45,15 @@ export function Header() {
   const closeTimer = useRef(0)
   const menuId = useId()
 
+  useEffect(()=>{
+    if(!openMenu||matchMedia('(prefers-reduced-motion: reduce)').matches)return
+    const ctx=gsap.context(()=>{
+      gsap.fromTo('.mega',{y:-10,autoAlpha:0},{y:0,autoAlpha:1,duration:.25,ease:'power2.out'})
+      gsap.fromTo('.menu-art img',{scale:1.06},{scale:1,duration:.6,ease:'power2.out'})
+    },wrapRef)
+    return()=>ctx.revert()
+  },[openMenu])
+
   useEffect(() => {
     const frame = window.requestAnimationFrame(() => {
       setOpenMenu(null)
@@ -56,6 +66,12 @@ export function Header() {
 
   useEffect(() => {
     function onKey(event: KeyboardEvent) {
+      if (mobileOpen && event.key === 'Tab') {
+        const items = Array.from(wrapRef.current?.querySelectorAll<HTMLElement>('a[href], button:not([disabled])') ?? []).filter(el => el.getClientRects().length > 0)
+        const first = items[0], last = items[items.length - 1]
+        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus() }
+        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus() }
+      }
       if (event.key !== 'Escape') return
       if (searchOpen) {
         setSearchOpen(false)
@@ -67,6 +83,7 @@ export function Header() {
         burgerButton.current?.focus()
         return
       }
+      if (openMenu) document.getElementById(`nav-${openMenu}`)?.focus()
       setOpenMenu(null)
     }
     function onClick(event: MouseEvent) {
@@ -76,7 +93,7 @@ export function Header() {
       }
     }
     function onResize() {
-      if (window.innerWidth >= 940) {
+      if (window.innerWidth > 1100) {
         setMobileOpen(false)
         setOpenAccordion(null)
       } else {
@@ -91,7 +108,14 @@ export function Header() {
       document.removeEventListener('mousedown', onClick)
       window.removeEventListener('resize', onResize)
     }
-  }, [mobileOpen, searchOpen])
+  }, [mobileOpen, searchOpen, openMenu])
+
+  useEffect(() => {
+    const background = Array.from(document.querySelectorAll<HTMLElement>('main, footer'))
+    const previous = background.map(el => el.inert)
+    if (mobileOpen) background.forEach(el => { el.inert = true })
+    return () => background.forEach((el, i) => { el.inert = previous[i] })
+  }, [mobileOpen])
 
   useEffect(() => {
     document.body.style.overflow = searchOpen || mobileOpen ? 'hidden' : ''
@@ -141,7 +165,14 @@ export function Header() {
   const results = searchCatalog(query)
 
   return (
-    <header className={`site-header nav${mobileOpen ? ' is-open' : ''}${openMenu ? ' is-mega' : ''}`} ref={wrapRef}>
+    <header className={`site-header nav${mobileOpen ? ' is-open' : ''}${openMenu ? ' is-mega' : ''}`} ref={wrapRef} onClick={(event) => {
+      if ((event.target as HTMLElement).closest('a[href]')) {
+        window.clearTimeout(openTimer.current)
+        window.clearTimeout(closeTimer.current)
+        setOpenMenu(null)
+        closeMobile()
+      }
+    }}>
       <div className="header-main">
         <Brand />
 
@@ -197,7 +228,7 @@ export function Header() {
         <div className="header-cta">
           <Link className="header-util" href="/partners/login">
             <PartnerIcon />
-            <span>Partner Access</span>
+            <span>Partner Login</span>
           </Link>
           {SHOW_SEARCH ? (
             <button
@@ -247,11 +278,11 @@ export function Header() {
             const open = openAccordion === item.id
             return (
               <div className="mobile-acc" key={item.id}>
-                <button type="button" aria-expanded={open} onClick={() => setOpenAccordion(open ? null : item.id)}>
+                <button type="button" aria-label={item.label} aria-expanded={open} aria-controls={`${menuId}-mobile-${item.id}`} onClick={() => setOpenAccordion(open ? null : item.id)}>
                   {item.label}
                 </button>
                 {open ? (
-                  <div className="mobile-acc-panel">
+                  <div className="mobile-acc-panel" id={`${menuId}-mobile-${item.id}`}>
                     <Link href={item.href} onClick={closeMobile}>
                       Overview
                     </Link>
@@ -303,7 +334,7 @@ export function Header() {
           ) : null}
           <Link className="navmenu__link" href="/partners/login" onClick={closeMobile}>
             <PartnerIcon />
-            <span>Partner Access</span>
+            <span>Partner Login</span>
           </Link>
           <Link className="navmenu__cta" href="/contact" onClick={closeMobile}>
             Contact Sales
@@ -327,18 +358,20 @@ export function Header() {
             role="region"
             aria-label={`${activeItem.label} menu`}
           >
-            <div className="mega-cols">
-              {activeItem.menu.columns.map((column) => (
-                <div className="mega-col" key={column.title}>
-                  <h3>{column.title}</h3>
-                  {column.links.map((link) => (
-                    <Link key={link.href + link.label} href={link.href}>
-                      <strong>{link.label}</strong>
-                      {link.note ? <span>{link.note}</span> : null}
-                    </Link>
-                  ))}
-                </div>
-              ))}
+            <div className="mega-body">
+              <div className="mega-cols">
+                {activeItem.menu.columns.map((column) => (
+                  <div className="mega-col" key={column.title}>
+                    <h3>{column.title}</h3>
+                    {column.links.map((link) => (
+                      <Link key={link.href + link.label} href={link.href}>
+                        <strong>{link.label}</strong>
+                        {link.note ? <span>{link.note}</span> : null}
+                      </Link>
+                    ))}
+                  </div>
+                ))}
+              </div>
               <Link className="mega-viewall" href={activeItem.menu.viewAll.href}>
                 {activeItem.menu.viewAll.label}
               </Link>
@@ -359,7 +392,7 @@ export function Header() {
               ) : null}
             </div>
             <aside className="mega-feature">
-              <MediaFrame name={activeItem.menu.featured.media} alt="" />
+              <MenuArt id={activeItem.id}/>
               <div className="mega-feature__copy">
                 <p className="eyebrow">{activeItem.menu.featured.label}</p>
                 <h3>{activeItem.menu.featured.title}</h3>

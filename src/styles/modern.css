@@ -482,12 +482,18 @@
     backdrop-filter: blur(22px);
   }
 
+  .mega-body {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 2.2rem 2.2rem 1.5rem;
+  }
+
   .mega-cols {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 2.5rem;
     align-content: start;
-    padding: 2.4rem;
   }
 
   .mega[data-cols="1"] .mega-cols {
@@ -530,41 +536,69 @@
   }
 
   .mega-viewall {
-    align-self: end;
+    align-self: start;
+    margin-top: 1.35rem;
     color: var(--blue);
     font-size: 0.85rem;
     font-weight: 700;
   }
 
   .mega-industries {
-    grid-column: 1 / -1;
-    padding-top: 1.25rem;
-    border-top: 1px solid var(--line);
+    margin: 1.45rem -2.2rem -1.5rem;
+    padding: 1.15rem 2.2rem 1.25rem;
+    color: var(--white);
+    background:
+      linear-gradient(160deg, rgba(29, 177, 233, 0.25), transparent 50%),
+      var(--navy);
+    border-top: 0;
   }
 
   .mega-industries__head {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .mega-industries__head h3 {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.62);
   }
 
   .mega-industries__head a {
-    color: var(--blue);
+    color: var(--white);
     font-size: 0.8rem;
     font-weight: 700;
+    text-decoration: none;
+  }
+
+  .mega-industries__head a:hover {
+    color: var(--blue-bright);
   }
 
   .mega-industries__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.55rem;
+    gap: 0.45rem;
   }
 
   .mega-industries__list a {
-    padding: 0.45rem 0.75rem;
-    background: var(--paper-deep);
+    padding: 0.38rem 0.72rem;
+    color: var(--white);
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.22);
     border-radius: 999px;
-    font-size: 0.8rem;
+    font-size: 0.84rem;
+    font-weight: 650;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+
+  .mega-industries__list a:hover {
+    color: var(--navy);
+    background: var(--white);
+    border-color: var(--white);
   }
 
   .mega-feature {

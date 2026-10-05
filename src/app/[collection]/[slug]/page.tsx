@@ -1,8 +1,11 @@
+import { OfferingDetail } from '@/components/offering-detail'
+import { CinemaInterior } from '@/components/cinema-interior'
+import { storyImage } from '@/content/cinema'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { Action, Eyebrow } from '@/components/ui'
-import { MediaFrame } from '@/components/media-frame'
+import { Eyebrow } from '@/components/ui'
+
 import {
   findByHref,
   getIndustry,
@@ -73,149 +76,10 @@ function Related({ hrefs }: { hrefs: string[] }) {
 }
 
 export default async function DetailPage({ params }: { params: Promise<{ collection: string; slug: string }> }) {
-  const { item } = await load(params)
+  const { item, collection } = await load(params)
   const interest = encodeURIComponent(item.title)
 
-  if (item.kind === 'product') {
-    return (
-      <div className="page detail-page detail-page--product">
-        <div className="container">
-          <nav className="breadcrumb" aria-label="Breadcrumb">
-            <Link href="/">Home</Link>
-            <span>/</span>
-            <Link href="/products">Products</Link>
-            <span>/</span>
-            <span aria-current="page">{item.title}</span>
-          </nav>
-          <section className="split-hero">
-            <div>
-              <Eyebrow>{item.eyebrow}</Eyebrow>
-              <h1>{item.headline}</h1>
-              <p>{item.summary}</p>
-              <Action href={`/contact?intent=demo&interest=${interest}`}>Request a tailored demo</Action>
-            </div>
-            <MediaFrame name={item.image} alt={`${item.title} environment`} priority />
-          </section>
-        </div>
-        <section className="section detail-section detail-section--intro">
-          <div className="container trust-split">
-            <div>
-              <Eyebrow>Who it is for</Eyebrow>
-              <h2>{item.family}</h2>
-            </div>
-            <p>{item.audience}</p>
-          </div>
-        </section>
-        <section className="section detail-section">
-          <div className="container">
-            <Eyebrow>Capabilities</Eyebrow>
-            <h2>What the product is asked to do.</h2>
-            <div className="stack-list">
-              {item.capabilities.map((capability) => (
-                <article className="stack-item" key={capability.title}>
-                  <h3>{capability.title}</h3>
-                  <p>{capability.body}</p>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
-        <section className="section detail-section detail-section--dark">
-          <div className="container trust-split">
-            <div>
-              <Eyebrow>Deployment</Eyebrow>
-              <h2>Fit the estate first.</h2>
-            </div>
-            <p>{item.deployment}</p>
-          </div>
-        </section>
-        <section className="section detail-section detail-section--related">
-          <div className="container">
-            <Eyebrow>Continue</Eyebrow>
-            <Related hrefs={item.related} />
-          </div>
-        </section>
-      </div>
-    )
-  }
-
-  if (item.kind === 'solution') {
-    return (
-      <div className="page detail-page detail-page--solution">
-        <div className="container">
-          <nav className="breadcrumb" aria-label="Breadcrumb">
-            <Link href="/">Home</Link>
-            <span>/</span>
-            <Link href="/solutions">Solutions</Link>
-            <span>/</span>
-            <span aria-current="page">{item.title}</span>
-          </nav>
-          <section className="split-hero">
-            <div>
-              <Eyebrow>{item.eyebrow}</Eyebrow>
-              <h1>{item.headline}</h1>
-              <p>{item.outcome}</p>
-              <Action href={`/contact?intent=solution&interest=${interest}`}>Discuss your requirements</Action>
-            </div>
-            <MediaFrame name={item.image} alt="" priority />
-          </section>
-        </div>
-        <section className="section detail-section detail-section--intro">
-          <div className="container trust-split">
-            <div>
-              <Eyebrow>The operating problem</Eyebrow>
-              <h2>Why this page exists.</h2>
-            </div>
-            <p>{item.problem}</p>
-          </div>
-        </section>
-        <section className="section detail-section">
-          <div className="container">
-            <div className="chip-row">
-              {item.chips.map((chip) => (
-                <span className="chip" key={chip}>
-                  {chip}
-                </span>
-              ))}
-            </div>
-            <Eyebrow>Workflows</Eyebrow>
-            <div className="stack-list">
-              {item.workflows.map((workflow) => (
-                <article className="stack-item" key={workflow}>
-                  <h3>{workflow}</h3>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
-        <section className="section detail-section detail-section--dark">
-          <div className="container trust-split">
-            <div>
-              <Eyebrow>Deployment stance</Eyebrow>
-              <h2>Choose the constraint, then the model.</h2>
-            </div>
-            <p>{item.deployment}</p>
-          </div>
-        </section>
-        <section className="section detail-section detail-section--related">
-          <div className="container">
-            <Eyebrow>Mapped products</Eyebrow>
-            <Related hrefs={item.products} />
-            {item.faq.length ? (
-              <div className="faq-list detail-faq">
-                {item.faq.map((itemFaq) => (
-                  <details key={itemFaq.q}>
-                    <summary>{itemFaq.q}</summary>
-                    <p>{itemFaq.a}</p>
-                  </details>
-                ))}
-              </div>
-            ) : null}
-          </div>
-        </section>
-      </div>
-    )
-  }
+  if (item.kind === 'product' || item.kind === 'solution') return <OfferingDetail item={item} />
 
   return (
     <div className="page detail-page detail-page--industry">
@@ -227,18 +91,7 @@ export default async function DetailPage({ params }: { params: Promise<{ collect
           <span>/</span>
           <span aria-current="page">{item.title}</span>
         </nav>
-        <section className="split-hero">
-          <div>
-            <Eyebrow>{item.eyebrow}</Eyebrow>
-            <h1>{item.headline}</h1>
-            <p>{item.outcome}</p>
-            {item.status === 'future' ? (
-              <p className="notice">This sector pathway is under evaluation. The conversation is still open.</p>
-            ) : null}
-            <Action href={`/contact?intent=industry&interest=${interest}`}>Discuss this environment</Action>
-          </div>
-          <MediaFrame name={item.image} alt="" priority />
-        </section>
+        <CinemaInterior eyebrow={item.eyebrow} title={item.headline} body={item.outcome} image={storyImage(item.slug,collection)} href={`/contact?interest=${interest}`} action="Talk to an expert" />
       </div>
       <section className="section detail-section detail-section--intro">
         <div className="container">
@@ -273,3 +126,4 @@ export default async function DetailPage({ params }: { params: Promise<{ collect
     </div>
   )
 }
+

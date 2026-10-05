@@ -29,16 +29,6 @@ export type MegaMenu = {
   viewAll: NavLink
 }
 
-export const industryNavLinks: NavLink[] = [
-  { label: 'Healthcare', href: '/industries/healthcare', note: 'Clinical coordination across sites' },
-  { label: 'Power & Utilities', href: '/industries/power-utilities', note: 'Grid and plant continuity' },
-  { label: 'Transportation', href: '/industries/transportation', note: 'Dispatch under time pressure' },
-  { label: 'Alarm Systems', href: '/industries/alarm-systems', note: 'Always-on receiving and response' },
-  { label: 'Hospitality', href: '/industries/hospitality', note: 'Front desk, rooms, and service desks' },
-  { label: 'Education', href: '/industries/education', note: 'Campus safety and administration' },
-  { label: 'Assisted Living', href: '/industries/assisted-living', note: 'Resident safety and staff response' },
-]
-
 export type NavItem = {
   id: string
   label: string
@@ -46,7 +36,14 @@ export type NavItem = {
   menu: MegaMenu
 }
 
-export const utilityLinks: NavLink[] = [{ label: 'Partner Access', href: '/partners/login' }]
+export const utilityLinks: NavLink[] = [{ label: 'Partner Login', href: '/partners/login' }]
+
+const partnerNavNotes: Record<(typeof partnerTypes)[number]['id'], string> = {
+  'carrier-isp': 'FMC, OEM, and enterprise packaging',
+  'technology-service-distributor': 'Coordinator Agent and regional coverage',
+  'system-integrator': 'Vertical workflows and technical fit',
+  'software-developer-oem': 'API, branding, and extension',
+}
 
 export const primaryNav: NavItem[] = [
   {
@@ -111,7 +108,16 @@ export const primaryNav: NavItem[] = [
       ],
       industries: {
         title: 'Industries',
-        links: industryNavLinks,
+        links: [
+          { label: 'Healthcare', href: '/industries/healthcare' },
+          { label: 'Power & Utilities', href: '/industries/power-utilities' },
+          { label: 'Transportation', href: '/industries/transportation' },
+          { label: 'Alarm Systems', href: '/industries/alarm-systems' },
+          { label: 'Hospitality', href: '/industries/hospitality' },
+          { label: 'Education', href: '/industries/education' },
+          { label: 'Assisted Living', href: '/industries/assisted-living' },
+          { label: 'Financial Services', href: '/industries/financial-services' },
+        ],
         viewAll: { label: 'All industries', href: '/industries' },
       },
       featured: {
@@ -136,7 +142,7 @@ export const primaryNav: NavItem[] = [
           links: partnerTypes.map((type) => ({
             label: type.name,
             href: `/partners#${type.id}`,
-            note: type.navNote,
+            note: partnerNavNotes[type.id],
           })),
         },
         {
@@ -144,17 +150,17 @@ export const primaryNav: NavItem[] = [
           links: [
             { label: 'Partner Program', href: '/partners', note: 'How the channel works' },
             { label: 'Become a Partner', href: '/partners/apply', note: 'Five-step qualification' },
-            { label: 'Partner Access', href: '/partners/login', note: 'Approved partner portal' },
+            { label: 'Partner Login', href: '/partners/login', note: 'Approved partner access' },
           ],
         },
       ],
       featured: {
-        label: 'Aeonix4Cloud partner program',
-        title: 'Increase revenue. Control your customer.',
-        body: 'Take a winning UCaaS product to market and keep the customer relationship.',
+        label: 'Channel path',
+        title: 'Become a partner',
+        body: 'Carrier, distributor, integrator, and developer intake in five steps.',
         href: '/partners/apply',
         cta: 'Start application',
-        media: 'partner-stage',
+        media: 'partners',
       },
       viewAll: { label: 'Explore the program', href: '/partners' },
     },
@@ -187,7 +193,7 @@ export const primaryNav: NavItem[] = [
         body: 'A practical framework for cloud speed, on-premise control, and continuity.',
         href: '/resources',
         cta: 'Get the report',
-        media: 'heritage',
+        media: 'resources',
       },
       viewAll: { label: 'Browse resources', href: '/resources' },
     },
@@ -213,12 +219,14 @@ export const primaryNav: NavItem[] = [
         body: 'AI-ready technology grounded in human communication and operational experience.',
         href: '/about',
         cta: 'About Tadiran',
-        media: 'heritage',
+        media: 'company',
       },
       viewAll: { label: 'About Tadiran', href: '/about' },
     },
   },
 ]
+
+export const industryNavLinks: NavLink[] = primaryNav.find((item) => item.id === 'solutions')!.menu.industries!.links
 
 export const footerLegal: NavLink[] = [
   { label: 'Privacy', href: '/privacy' },
@@ -233,19 +241,65 @@ export const footerSocials: NavLink[] = [
   { label: 'X', href: 'https://twitter.com/tadirantelecom' },
 ]
 
-export const footerColumns = primaryNav.flatMap((item) => {
-  const column = {
-    label: item.label,
-    href: item.href,
-    links: item.menu.columns.flatMap((group) => group.links).slice(0, 6),
-  }
-  if (item.id !== 'solutions') return [column]
-  return [
-    column,
-    {
-      label: 'Industries',
-      href: '/industries',
-      links: industryNavLinks,
-    },
-  ]
-})
+export const footerColumns = [
+  {
+    label: 'Products',
+    href: '/products',
+    links: [
+      { label: 'Aeonix UC', href: '/products/aeonix' },
+      { label: 'OmniCX', href: '/products/omnicx' },
+      { label: 'AVA Assistant', href: '/products/ava' },
+      { label: 'Recording & Quality', href: '/products/recording-quality' },
+      { label: 'All products', href: '/products' },
+    ],
+  },
+  {
+    label: 'Solutions',
+    href: '/solutions',
+    links: [
+      { label: 'Enterprise Communications', href: '/solutions/enterprise-communications' },
+      { label: 'Omnichannel CX', href: '/solutions/omnichannel-cx' },
+      { label: 'AI & Analytics', href: '/solutions/ai-analytics' },
+      { label: 'Critical Communications', href: '/solutions/critical-communications' },
+      { label: 'All solutions', href: '/solutions' },
+    ],
+  },
+  {
+    label: 'Industries',
+    href: '/industries',
+    links: [
+      { label: 'Healthcare', href: '/industries/healthcare' },
+      { label: 'Power & Utilities', href: '/industries/power-utilities' },
+      { label: 'Transportation', href: '/industries/transportation' },
+      { label: 'Hospitality', href: '/industries/hospitality' },
+      { label: 'All industries', href: '/industries' },
+    ],
+  },
+  {
+    label: 'Partners',
+    href: '/partners',
+    links: [
+      { label: 'Partner program', href: '/partners' },
+      { label: 'Become a Partner', href: '/partners/apply' },
+      { label: 'Partner Login', href: '/partners/login' },
+    ],
+  },
+  {
+    label: 'Resources',
+    href: '/resources',
+    links: [
+      { label: 'Resource library', href: '/resources' },
+      { label: "What's New", href: '/resources#whats-new' },
+      { label: 'Talk to an Expert', href: '/contact' },
+    ],
+  },
+  {
+    label: 'Company',
+    href: '/about',
+    links: [
+      { label: 'About Tadiran', href: '/about' },
+      { label: 'Contact', href: '/contact' },
+      { label: 'Global footprint', href: '/about#footprint' },
+    ],
+  },
+]

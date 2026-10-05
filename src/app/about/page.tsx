@@ -3,10 +3,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Action, SectionHeading } from '@/components/ui'
 import { Reveal } from '@/components/reveal'
-import { InteriorHero } from '@/components/interior-hero'
-import { HomeMedia } from '@/components/media-frame'
 import { CompanyJourney } from '@/components/company-journey'
 import { WorldMap } from '@/components/world-map'
+import {RelationshipHero} from '@/components/relationship-hero'
+import {RelationshipMotion} from '@/components/relationship-motion'
+import {proofStats} from '@/content/about'
 import { ceo, companyLeaders, family, floors, regionalLeaders, type Leader } from '@/content/about'
 
 export const metadata: Metadata = {
@@ -56,15 +57,9 @@ function LeadershipRow({
 
 export default function About() {
   return (
-    <div className="page about">
-      <InteriorHero
-        eyebrow="Tadiran Telecom"
-        title="Built in Israel. Running where every call counts."
-        body="For more than sixty years, Tadiran has designed communications for enterprises and critical operations that cannot afford to lose the connection."
-        image="/media/heritage.webp"
-        primary={{ href: '#story', label: 'Our story' }}
-        secondary={{ href: '/contact', label: 'Talk to us' }}
-      />
+    <RelationshipMotion className="page about relationship-page">
+      <RelationshipHero kind="about"/>
+      <div className="relationship-facts" data-stagger>{proofStats.map(f=><div key={f.label}><strong>{f.value}</strong><span>{f.label}</span></div>)}</div>
 
       <section className="about-chapter" id="story">
         <div className="about-shell">
@@ -73,7 +68,7 @@ export default function About() {
               <p className="about-story__year">1963</p>
               <div>
                 <p className="eyebrow">The company</p>
-                <h2>From Petah Tikva to the operations that have to answer.</h2>
+                <h2>Built on experience.<br/>Always looking forward.</h2>
               </div>
             </div>
           </Reveal>
@@ -125,7 +120,7 @@ export default function About() {
           <Reveal>
             <SectionHeading
               eyebrow="What we build"
-              title="Aeonix, then the rest of the stack."
+              title="Technology that brings people together."
               body="One communications foundation. Contact center, assistance, and the clients that sit on it. Cloud, hybrid, or on-premise."
               aside={
                 <Action href="/products" secondary>
@@ -188,7 +183,7 @@ export default function About() {
           <Reveal>
             <SectionHeading
               eyebrow="Leadership"
-              title="The CEO, the company, and three offices."
+              title="Meet the people behind the connection."
               body="Stephane Cohen has led Tadiran since November 2025. Product, customers, and finance sit in Petah Tikva. Atlanta, Beijing, and New Delhi run the regions."
             />
           </Reveal>
@@ -218,6 +213,7 @@ export default function About() {
           </Reveal>
         </div>
       </section>
-    </div>
+      <section className="relationship-closing"><p className="cine-eyebrow">Let’s build what’s next</p><h2>It starts with a conversation.</h2><Link className="cine-button" href="/contact">Talk to our team ↗</Link></section>
+    </RelationshipMotion>
   )
 }
